@@ -13,7 +13,7 @@ const projects = [
     image: expenseImage,
     description:
       "It is an web application allowing the user to keep track of his daily expenses. The backend is an API to collect data from a MongoDB database.",
-    github: "https://github.com/sorasimuon/Expense",
+    github: "https://github.com/sorasimuon/Expenses",
     link: "https://sorasimuon.github.io/Expenses/",
   },
   // {
