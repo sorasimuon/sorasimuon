@@ -16,15 +16,15 @@ const projects = [
     github: "https://github.com/sorasimuon/Expense",
     link: "https://sorasimuon.github.io/Expenses/",
   },
-  {
-    label: "AMAZON CLONE",
-    image: expenseImage,
-    source: "https://github.com/sorasimuon/Expenses",
-    description:
-      "This is an Amazon like website which allows users to purchase products with Stripe verification.",
-    github: "https://github.com/sorasimuon/amazon-clone",
-    link: "Lien",
-  },
+  // {
+  //   label: "AMAZON CLONE",
+  //   image: expenseImage,
+  //   source: "https://github.com/sorasimuon/Expenses",
+  //   description:
+  //     "This is an Amazon like website which allows users to purchase products with Stripe verification.",
+  //   github: "https://github.com/sorasimuon/amazon-clone",
+  //   link: "Lien",
+  // },
   {
     label: "WHATS'APP CLONE",
     image: whatsappImage,
