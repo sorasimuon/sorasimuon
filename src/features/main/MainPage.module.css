@@ -1,0 +1,209 @@
+.mainContainer {
+  width: 100%;
+  height: 2400px;
+  flex-wrap: wrap;
+}
+.mainContainer__grid {
+  display: grid;
+  grid-template-rows: 700px [row1] 700px [row2] 700px [row3] 300px [row4];
+}
+
+@media (min-width: 1921px) {
+  .mainContainer__grid {
+    grid-template-columns:
+      minmax(80px, 1fr) [row1] 1440px [row2] minmax(80px, 1fr)
+      [row3];
+    justify-content: center;
+  }
+  h1 {
+    font-size: 88px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 44px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .mainContainer__grid {
+    grid-template-columns:
+      minmax(80px, 1fr) [col1] 864px [col2] minmax(80px, 1fr)
+      [col3];
+  }
+  h1 {
+    font-size: 88px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 44px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+}
+/* @media (min-width: 361px) and (max-width: 720px) {
+  .mainContainer__grid {
+    grid-template-columns:
+      minmax(80px, 1fr) [col1] 90vw [col2] minmax(80px, 1fr)
+      [col3];
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 36px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+} */
+
+@media (max-width: 360px) {
+  .mainContainer__grid {
+    grid-template-columns:
+      minmax(80px, 1fr) [col1] 90vw [col2] minmax(80px, 1fr)
+      [col3];
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+}
+
+.header__background::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  -webkit-backdrop-filter: blur(5px); /* apply the blur */
+  backdrop-filter: blur(5px); /* apply the blur */
+  pointer-events: none; /* make the pseudo class click-through */
+}
+
+.header__background {
+  z-index: -1;
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  z-index: -3;
+  /* transform: scale(1.1); */
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0)
+    ),
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0)
+    ),
+    linear-gradient(
+      270deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0)
+    ),
+    url("bck.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  overflow: hidden;
+}
+
+.header {
+  filter: blur(0);
+  -webkit-filter: blur(0);
+  z-index: 0;
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  color: white;
+  font-weight: bold;
+  display: grid;
+  grid-template-rows: 1fr [header-row1] 1fr [header-row2] 0.75fr [header-row3];
+  grid-template-columns: 0.5fr [header-row1] 1fr [header-row2] 0.5fr [header-row3];
+}
+.header__title {
+  grid-row: 2/3;
+  grid-column: 1/4;
+  justify-self: center;
+  align-self: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin: 10px 0;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: rgb(10, 44, 136);
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0.3rem;
+  margin-bottom: 2rem;
+}
+h4 {
+  color: rgb(10, 44, 136);
+  text-align: left;
+}
+h5 {
+  color: rgb(64, 115, 255);
+  text-align: left;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  flex: 1;
+  text-align: justify;
+}
+
+.typeWriter {
+  color: #e91e63;
+}

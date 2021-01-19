@@ -1,0 +1,59 @@
+/* @media (min-width: 361px) {
+  .profilePicture {
+    border: 8px solid rgb(238, 240, 252);
+    width: 16rem;
+    height: 16rem;
+  }
+} */
+
+/* @media (min-width: 361px) and (max-width: 720px) {
+  .profilePicture {
+    border: 6px solid rgb(238, 240, 252);
+    width: 8rem;
+    height: 8rem;
+  }
+} */
+
+/* @media (max-width: 360px) {
+  .profilePicture {
+    border: 4px solid rgb(238, 240, 252);
+    width: 6rem;
+    height: 6rem;
+  }
+} */
+
+.profilePicture {
+  z-index: 1;
+  justify-self: center;
+  align-self: center;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid rgb(238, 240, 252);
+  width: 16rem;
+  height: 16rem;
+}
+
+.descriptionBackground {
+  z-index: 0;
+  grid-column: 1/4;
+  grid-row: 2/2;
+  background-color: rgb(238, 240, 252);
+}
+.descriptionContent {
+  z-index: 0;
+  box-sizing: border-box;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: inherit;
+  display: grid;
+  grid-template-rows: calc(8rem + 8px) [content-row1] 4rem [content-row2] 1fr [content-row3];
+  grid-template-columns: 1fr [content-col1];
+}
+.socialLink {
+  grid-row: 2/2;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}

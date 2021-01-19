@@ -1,0 +1,73 @@
+.cvContent {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.mobileStepper {
+  height: auto;
+  grid-row: 3/3;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid green; */
+}
+
+.jobdescription {
+  font-size: 22px;
+  flex: 1;
+  text-align: justify;
+}
+
+.card {
+  display: grid;
+  margin: 24px 0;
+  grid-template-rows: 80px [row] repeat(2, 40px [row]) 1fr[row];
+}
+.cardPassion {
+  justify-self: center;
+  display: grid;
+  margin: 24px 0;
+  grid-template-rows: 1fr[row] 80px [row];
+  justify-items: center;
+}
+.imagePassion {
+  border-radius: 50%;
+  background-color: #e91e63;
+  width: 100px;
+  height: auto;
+}
+
+.descriptionPassion {
+  text-align: center;
+}
+
+.CarouselContainer {
+  grid-column: 2/2;
+  border: 1px solid red;
+}
+.carousselController {
+  display: flex;
+  justify-content: space-between;
+}
+.carousselButton {
+  border: none;
+  background-color: inherit;
+  outline: none;
+  color: #e91e63;
+  padding: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.carousselButton:hover {
+  border: none;
+  background-color: rgb(218, 223, 252);
+  outline: none;
+}
+.carousselButton:active {
+  border: none;
+  background-color: rgb(183, 194, 255);
+  outline: none;
+  color: white;
+  transition: 100ms;
+}

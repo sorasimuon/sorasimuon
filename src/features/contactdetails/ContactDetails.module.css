@@ -1,0 +1,27 @@
+.contactDetails__bckg {
+  grid-column: 1/4;
+  grid-row: 4/4;
+  background-color: rgb(39, 64, 110);
+  color: white;
+  display: grid;
+}
+
+.contactDetails__main {
+  grid-column: 2/3;
+  grid-row: 4/4;
+  color: white;
+  display: grid;
+  grid-template-rows: 0.4fr [row1] 0.6fr [row2];
+}
+.contactDetails__textArea {
+  grid-row: 2/2;
+  color: white;
+  display: grid;
+  grid-template-columns: 36px [col1] 1fr [col2];
+  grid-template-rows: 1fr [row1] 1fr [row2];
+  align-items: center;
+  column-gap: 20px;
+  padding: 20px;
+}
+.contactDetails__text {
+}
