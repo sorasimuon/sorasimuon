@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc4388ac.chunk.css",
+    "main.js": "/static/js/main.de899e5b.chunk.js",
+    "main.js.map": "/static/js/main.de899e5b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9cd8a791.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9cd8a791.js.map",
+    "static/css/2.136a4374.chunk.css": "/static/css/2.136a4374.chunk.css",
+    "static/js/2.f219768b.chunk.js": "/static/js/2.f219768b.chunk.js",
+    "static/js/2.f219768b.chunk.js.map": "/static/js/2.f219768b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.136a4374.chunk.css.map": "/static/css/2.136a4374.chunk.css.map",
+    "static/css/main.fc4388ac.chunk.css.map": "/static/css/main.fc4388ac.chunk.css.map",
+    "static/js/2.f219768b.chunk.js.LICENSE.txt": "/static/js/2.f219768b.chunk.js.LICENSE.txt",
+    "static/media/Avatar.cfb27205.png": "/static/media/Avatar.cfb27205.png",
+    "static/media/BasketBall.5aae7a40.png": "/static/media/BasketBall.5aae7a40.png",
+    "static/media/Expenses.4dd03616.PNG": "/static/media/Expenses.4dd03616.PNG",
+    "static/media/Hiking.2d75864a.png": "/static/media/Hiking.2d75864a.png",
+    "static/media/Resume.04adb51f.pdf": "/static/media/Resume.04adb51f.pdf",
+    "static/media/Squash.a54e5ead.png": "/static/media/Squash.a54e5ead.png",
+    "static/media/TableTennis.d8d93239.png": "/static/media/TableTennis.d8d93239.png",
+    "static/media/Tennis.acba3279.png": "/static/media/Tennis.acba3279.png",
+    "static/media/Whatsapp2.8f83ab4b.PNG": "/static/media/Whatsapp2.8f83ab4b.PNG",
+    "static/media/MainPage.module.css": "/static/media/bck.63eccec8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cd8a791.js",
+    "static/css/2.136a4374.chunk.css",
+    "static/js/2.f219768b.chunk.js",
+    "static/css/main.fc4388ac.chunk.css",
+    "static/js/main.de899e5b.chunk.js"
+  ]
+}
