@@ -5,6 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 // Import Material UI + Styling
 import expenseImage from "./images/Expenses.PNG";
 import whatsappImage from "./images/Whatsapp2.PNG";
+import amazonImage from "./images/Amazon.PNG";
 import styles from "./ProjectContainer.module.css";
 
 const projects = [
@@ -16,15 +17,15 @@ const projects = [
     github: "https://github.com/sorasimuon/Expenses",
     link: "https://sorasimuon.github.io/Expenses/",
   },
-  // {
-  //   label: "AMAZON CLONE",
-  //   image: expenseImage,
-  //   source: "https://github.com/sorasimuon/Expenses",
-  //   description:
-  //     "This is an Amazon like website which allows users to purchase products with Stripe verification.",
-  //   github: "https://github.com/sorasimuon/amazon-clone",
-  //   link: "Lien",
-  // },
+  {
+    label: "AMAZON CLONE",
+    image: amazonImage,
+    source: "https://challenge-22824.web.app/",
+    description:
+      "This is an e-commerce platform with Amazon website design which allows users to simulate purchase of products using Strip payment API.",
+    github: "https://github.com/sorasimuon/amazon-clone",
+    link: "Lien",
+  },
   {
     label: "WHATS'APP CLONE",
     image: whatsappImage,

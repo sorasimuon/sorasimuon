@@ -1,27 +1,3 @@
-/* @media (min-width: 361px) {
-  .profilePicture {
-    border: 8px solid rgb(238, 240, 252);
-    width: 16rem;
-    height: 16rem;
-  }
-} */
-
-/* @media (min-width: 361px) and (max-width: 720px) {
-  .profilePicture {
-    border: 6px solid rgb(238, 240, 252);
-    width: 8rem;
-    height: 8rem;
-  }
-} */
-
-/* @media (max-width: 360px) {
-  .profilePicture {
-    border: 4px solid rgb(238, 240, 252);
-    width: 6rem;
-    height: 6rem;
-  }
-} */
-
 .profilePicture {
   z-index: 1;
   justify-self: center;
