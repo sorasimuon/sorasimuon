@@ -24,7 +24,7 @@ const projects = [
     description:
       "This is an e-commerce platform with Amazon website design which allows users to simulate purchase of products using Strip payment API.",
     github: "https://github.com/sorasimuon/amazon-clone",
-    link: "Lien",
+    link: "https://challenge-22824.firebaseapp.com/",
   },
   {
     label: "WHATS'APP CLONE",
