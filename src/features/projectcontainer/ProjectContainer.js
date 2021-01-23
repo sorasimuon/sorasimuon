@@ -22,7 +22,7 @@ const projects = [
     image: amazonImage,
     source: "https://challenge-22824.web.app/",
     description:
-      "It is an e-commerce platform with Amazon website design which allows users to simulate purchase of products using Strip payment API.",
+      "It is an e-commerce platform with Amazon website design which allows users to simulate purchase of products using Stripe payment API.",
     github: "https://github.com/sorasimuon/amazon-clone",
     link: "https://challenge-22824.firebaseapp.com/",
   },
