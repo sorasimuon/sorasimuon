@@ -168,7 +168,7 @@ const cvContent2 = [
       {
         label: "INTERNSHIP BACK OFFICE SUPPORT / BUSINESS ANALYST CALYPSO",
         company: "BNP PARIBAS ARBITRAGE",
-        period: "PARIS 04/2012 - 09/2012",
+        period: "PARIS 05/2011 - 08/2011",
         description:
           "Provide support level 1 and 2 on the trade settlement tool Calypso",
       },
