@@ -5,7 +5,7 @@ import CvContent from "../resumecontent/CvContent";
 import styles from "./ResumeContainer.module.css";
 import { makeStyles, useTheme } from "@material-ui/core";
 import IconButton from "@material-ui/core/IconButton";
-import { blue, pink } from "@material-ui/core/colors";
+import { blue, pink, teal } from "@material-ui/core/colors";
 
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -13,7 +13,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 const useStyles = makeStyles((theme) => ({
   linkSocialNetwork: {
     "&:hover": {
-      color: blue[100],
+      backgroundColor: teal[200],
     },
     [theme.breakpoints.down(768)]: {
       width: "3rem",
@@ -24,9 +24,9 @@ const useStyles = makeStyles((theme) => ({
     height: "auto",
   },
   iconSocialNetwork: {
-    color: pink[500],
+    color: teal[400],
     "&:hover": {
-      color: pink[200],
+      color: teal[700],
     },
     [theme.breakpoints.down(768)]: {
       width: "2.5rem",

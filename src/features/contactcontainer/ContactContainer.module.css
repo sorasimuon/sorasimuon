@@ -1,22 +1,20 @@
 .contactContainer___background {
-  background-color: rgb(39, 64, 110);
+  background-color: #e0f2f1;
 }
 
 .contactContainer__content {
-  color: white;
   display: grid;
   grid-template-rows: 0.4fr [row1] 0.6fr [row2];
 }
 .contactContainer__textArea {
-  color: white;
   display: grid;
   grid-template-columns: auto [col1] 1fr [col2];
   grid-template-rows: 1fr [row1] 1fr [row2];
   align-items: center;
   column-gap: 20px;
 }
-.contactContainer__canvasRed {
-  background-color: #e91e63;
+.contactContainer__canvasGreen {
+  background-color: #26a69a;
 }
 
 @media only screen and (max-width: 768px) {
@@ -29,12 +27,11 @@
   .contactContainer__content {
     grid-column: 2/3;
     grid-row: 6/7;
-    color: white;
     display: grid;
     grid-template-rows: 0.4fr [row1] 0.03fr [row2] 1fr [row3];
     margin: 20px 0px;
   }
-  .contactContainer__canvasRed {
+  .contactContainer__canvasGreen {
     height: 2px;
     width: 60px;
     margin-bottom: 20px;
@@ -51,12 +48,11 @@
   .contactContainer__content {
     grid-column: 2/3;
     grid-row: 6/7;
-    color: white;
     display: grid;
     grid-template-rows: 0.4fr [row1] 0.03fr [row2] 1fr [row3];
     margin: 20px 0px;
   }
-  .contactContainer__canvasRed {
+  .contactContainer__canvasGreen {
     height: 2px;
     width: 60px;
     margin-bottom: 20px;

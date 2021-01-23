@@ -43,7 +43,7 @@ function ProjectContainer() {
       <canvas className={styles.projectContainer__background} />
       <div className={styles.projectContainer}>
         <h2>PROJECTS</h2>
-        <div className={styles.projectContainer__canvasRed}></div>
+        <div className={styles.projectContainer__canvasGreen}></div>
         {projects.map((content, index) => (
           <ProjectComponent key={uuidv4()} content={content} index={index} />
         ))}

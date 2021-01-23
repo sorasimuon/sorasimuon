@@ -1,8 +1,7 @@
 @media only screen and (max-width: 768px) {
   .projectComponent {
     display: grid;
-    /* grid-template-columns: 0.2fr [row1] 0.8fr[row2]; */
-    background-color: white;
+    background-color: #4db6ac;
     box-shadow: 0px 2px 4px rgba(150, 150, 150, 0.5);
     border-radius: 6px;
     margin: 16px 0px;
@@ -11,7 +10,7 @@
   .projectComponent:hover {
     display: grid;
     /* grid-template-columns: 0.2fr [row1] 0.8fr[row2]; */
-    background-color: rgb(160, 187, 238);
+    background-color: #009688;
     transform: scale(1.02);
     transition: 300ms ease;
   }
@@ -28,8 +27,7 @@
 @media only screen and (min-width: 769px) {
   .projectComponent {
     display: grid;
-    /* grid-template-columns: 0.2fr [row1] 0.8fr[row2]; */
-    background-color: rgb(238, 240, 252);
+    background-color: #4db6ac;
     box-shadow: 0px 2px 4px rgba(150, 150, 150, 0.5);
     border-radius: 6px;
     margin: 16px 0px;
@@ -38,7 +36,7 @@
   .projectComponent:hover {
     display: grid;
     /* grid-template-columns: 0.2fr [row1] 0.8fr[row2]; */
-    background-color: rgb(160, 187, 238);
+    background-color: #009688;
     transform: scale(1.02);
     transition: 300ms ease;
   }

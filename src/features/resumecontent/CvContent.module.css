@@ -14,8 +14,8 @@
   box-sizing: border-box;
   position: relative;
 }
-.cvContent__canvasRed {
-  background-color: #e91e63;
+.cvContent__canvasGreen {
+  background-color: #26a69a;
 }
 
 .jobdescription {
@@ -30,56 +30,17 @@
   /* grid-template-rows: 80px [row] repeat(2, 40px [row]) 1fr[row]; */
   grid-template-rows: 0.2 [row] 0.8[row];
 }
-/* .cardPassion {
-  justify-self: center;
-  display: grid;
-  margin: 24px 0;
-  grid-template-rows: 1fr[row] 80px [row];
-  justify-items: center;
-} */
 .imagePassion {
   border-radius: 50%;
-  width: 100px;
-  height: auto;
+  background-color: #26a69a;
 }
 
 .descriptionPassion {
   text-align: center;
 }
 
-.CarouselContainer {
-  grid-column: 2/2;
-  border: 1px solid red;
-}
-.carousselController {
-  display: flex;
-  justify-content: space-between;
-}
-.carousselButton {
-  border: none;
-  background-color: inherit;
-  outline: none;
-  color: #e91e63;
-  padding: 0;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-.carousselButton:hover {
-  border: none;
-  background-color: rgb(218, 223, 252);
-  outline: none;
-}
-.carousselButton:active {
-  border: none;
-  background-color: rgb(183, 194, 255);
-  outline: none;
-  color: white;
-  transition: 100ms;
-}
-
 @media only screen and (min-width: 0px) and (max-width: 768px) {
-  .cvContent__canvasRed {
+  .cvContent__canvasGreen {
     height: 2px;
     width: 60px;
     margin-bottom: 20px;
@@ -103,13 +64,12 @@
   .imagePassion {
     width: 2.4em;
     height: 2.4em;
-    background-color: #e91e63;
     margin-right: 1em;
   }
 }
 
 @media only screen and (min-width: 769px) {
-  .cvContent__canvasRed {
+  .cvContent__canvasGreen {
     height: 2px;
     width: 60px;
     margin-bottom: 20px;
@@ -135,7 +95,6 @@
   .imagePassion {
     width: 3.6em;
     height: 3.6em;
-    background-color: #e91e63;
   }
   h3 {
     font-size: 1em;

@@ -56,8 +56,8 @@ function ProjectComponent({ content }) {
         /> */}
         <div className={classes.projectComponent__cardDescription}>
           <h3>{content.label}</h3>
-          <p>{content.description}</p>
-          <Button size="medium" color="secondary" href={content.github}>
+          <p style={{ color: "white" }}>{content.description}</p>
+          <Button size="medium" color="white" href={content.github}>
             GitHub Link &gt;&gt;&gt;
           </Button>
         </div>

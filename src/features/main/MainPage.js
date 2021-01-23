@@ -4,22 +4,20 @@ import ProjectContainer from "../projectcontainer/ProjectContainer";
 import ContactContainer from "../contactcontainer/ContactContainer";
 
 // Import fro Material-Ui and Styling parametrization
-import styles from "./MainPage2.module.css";
+import styles from "./MainPage.module.css";
 import { makeStyles } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
-import { pink, blue } from "@material-ui/core/colors";
+import { pink, blue, teal } from "@material-ui/core/colors";
 import Typewriter from "typewriter-effect";
-import backgroundImage from "../../images/Background.jpg";
 import profilePicture from "../../images/Avatar.png";
 import ResumeContainer from "../resumecontainer/ResumeContainer";
 
 const useStyles = makeStyles((theme) => ({
   header__floatingCVDownloadButton: {
     color: "white",
-    backgroundColor: pink[500],
+    backgroundColor: teal[400],
     "&:hover": {
-      backgroundColor: pink[300],
-      borderColor: pink[500],
+      backgroundColor: teal[200],
     },
     "&:focus": {
       outline: "none",
@@ -35,18 +33,6 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "0.8rem",
       top: 50,
       right: 50,
-    },
-  },
-  linkSocialNetwork: {
-    width: "4rem",
-    height: "4rem",
-  },
-  iconSocialNetwork: {
-    width: "2.5rem",
-    height: "auto",
-    color: "black",
-    "&:hover": {
-      color: blue[700],
     },
   },
 }));

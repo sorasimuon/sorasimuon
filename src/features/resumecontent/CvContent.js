@@ -308,7 +308,7 @@ function CvContent() {
         {cvContent.map((step, index) => (
           <div key={uuidv4()} index={index} className={`${styles.cvContent}`}>
             <h2>{step.label}</h2>
-            <div className={styles.cvContent__canvasRed}></div>
+            <div className={styles.cvContent__canvasGreen}></div>
             <div
               style={{
                 flex: 1,
@@ -365,7 +365,7 @@ function CvContent() {
       {cvContent2.map((step, index) => (
         <div key={uuidv4()} index={index} innerClassName={styles.cvContent}>
           <h2>{step.label}</h2>
-          <div className={styles.cvContent__canvasRed}></div>
+          <div className={styles.cvContent__canvasGreen}></div>
           <div
             style={{
               flex: 1,
@@ -403,7 +403,7 @@ function CvContent() {
                     alt={text.label}
                     className={styles.imagePassion}
                   />
-                  <h4 style={{ textAlign: "center" }}>{text.label}</h4>
+                  <p style={{ textAlign: "center" }}>{text.label}</p>
                 </div>
               ))}
           </div>
