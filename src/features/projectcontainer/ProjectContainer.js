@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ProjectComponent from "./projectcomponent/ProjectComponent";
 import { v4 as uuidv4 } from "uuid";
 
@@ -39,11 +39,16 @@ const projects = [
 
 function ProjectContainer() {
   return (
-    <div className={styles.projectContainer}>
-      {projects.map((content, index) => (
-        <ProjectComponent key={uuidv4()} content={content} index={index} />
-      ))}
-    </div>
+    <Fragment>
+      <canvas className={styles.projectContainer__background} />
+      <div className={styles.projectContainer}>
+        <h2>PROJECTS</h2>
+        <div className={styles.projectContainer__canvasRed}></div>
+        {projects.map((content, index) => (
+          <ProjectComponent key={uuidv4()} content={content} index={index} />
+        ))}
+      </div>
+    </Fragment>
   );
 }
 

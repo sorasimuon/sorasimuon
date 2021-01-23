@@ -1,15 +1,21 @@
+.mobileStepper {
+  height: auto;
+  grid-row: 2/3;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  /* border: 1px solid green; */
+}
+.cvContent__slider {
+  height: auto;
+}
 .cvContent {
   box-sizing: border-box;
   position: relative;
 }
-
-.mobileStepper {
-  height: auto;
-  grid-row: 3/3;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  /* border: 1px solid green; */
+.cvContent__canvasRed {
+  background-color: #e91e63;
 }
 
 .jobdescription {
@@ -21,18 +27,18 @@
 .card {
   display: grid;
   margin: 24px 0;
-  grid-template-rows: 80px [row] repeat(2, 40px [row]) 1fr[row];
+  /* grid-template-rows: 80px [row] repeat(2, 40px [row]) 1fr[row]; */
+  grid-template-rows: 0.2 [row] 0.8[row];
 }
-.cardPassion {
+/* .cardPassion {
   justify-self: center;
   display: grid;
   margin: 24px 0;
   grid-template-rows: 1fr[row] 80px [row];
   justify-items: center;
-}
+} */
 .imagePassion {
   border-radius: 50%;
-  background-color: #e91e63;
   width: 100px;
   height: auto;
 }
@@ -70,4 +76,72 @@
   outline: none;
   color: white;
   transition: 100ms;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .cvContent__canvasRed {
+    height: 2px;
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  .card {
+    /* box-shadow: 2px 2px 2px 1px rgba(200, 200, 200, 0.9); */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .cvContent {
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 2em;
+  }
+  .cardPassion {
+    justify-self: start;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .imagePassion {
+    width: 2.4em;
+    height: 2.4em;
+    background-color: #e91e63;
+    margin-right: 1em;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .cvContent__canvasRed {
+    height: 2px;
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  .card {
+    /* box-shadow: 2px 2px 2px 1px rgba(200, 200, 200, 0.9); */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .cvContent {
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 2em;
+  }
+  .cardPassion {
+    justify-self: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .imagePassion {
+    width: 3.6em;
+    height: 3.6em;
+    background-color: #e91e63;
+  }
+  h3 {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 1em;
+  }
 }

@@ -4,15 +4,7 @@ import { v4 as uuidv4 } from "uuid";
 // Import Material UI + Styling element
 import styles from "./ProjectComponent.module.css";
 import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import { Grid } from "@material-ui/core";
-import IconButton from "@material-ui/core/IconButton";
 
 const useStyles = makeStyles({
   root: {
@@ -20,7 +12,7 @@ const useStyles = makeStyles({
     gridTemplateRows: "1fr [row1] 1fr [row2] 60px [row3]",
     borderRadius: 6,
     boxShadow: "0px 2px 2px rgba(150,150,150,0.5)",
-    backgroundColor: "rgb(238, 240, 252)",
+    backgroundColor: "white",
     textDecoration: "none",
     "&:hover": {
       backgroundColor: "rgb(212, 219, 255)",
@@ -52,19 +44,38 @@ const useStyles = makeStyles({
   },
 });
 
-function ProjectComponent({ content, index }) {
+function ProjectComponent({ content }) {
   const classes = useStyles();
-  return (
-    <a href={content.link} className={classes.root}>
-      <img className={classes.media} src={content.image} alt={content.label} />
-      <div className={classes.cardDescription}>
-        <h4>{content.label}</h4>
-        <p>{content.description}</p>
-      </div>
 
-      <Button size="medium" color="secondary" href={content.github}>
-        GitHub Link &gt;&gt;&gt;
-      </Button>
+  // return (
+  //   <a href={content.link} className={classes.root}>
+  //     <img className={classes.media} src={content.image} alt={content.label} />
+  //     <div className={classes.cardDescription}>
+  //       <h4>{content.label}</h4>
+  //       <p>{content.description}</p>
+  //     </div>
+
+  //     <Button size="medium" color="secondary" href={content.github}>
+  //       GitHub Link &gt;&gt;&gt;
+  //     </Button>
+  //   </a>
+  // );
+  return (
+    <a href={content.link} style={{ textDecoration: "none" }}>
+      <div className={styles.projectComponent}>
+        {/* <img
+          className={styles.projectComponent__media}
+          src={content.image}
+          alt={content.label}
+        /> */}
+        <div className={classes.projectComponent__cardDescription}>
+          <h3>{content.label}</h3>
+          <p>{content.description}</p>
+          <Button size="medium" color="secondary" href={content.github}>
+            GitHub Link &gt;&gt;&gt;
+          </Button>
+        </div>
+      </div>
     </a>
   );
 }
