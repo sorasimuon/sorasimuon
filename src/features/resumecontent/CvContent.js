@@ -32,7 +32,7 @@ const cvContent = [
     type: "text",
     label: "ABOUT ME",
     text: [
-      "I am Sorasi, I have been working for almost seven years as a Front Office IT Application Support in investment banking.Passionate of Web development, I spent the past months learning modern Web programming and especially the MERN stack (Mongo - Express - React - Nodejs). Today I have the ambition to move my career to more technical position and ideally as a Full Stack Web Developper.",
+      "I am Sorasi, I have been working for almost seven years as a Front Office IT Application Support in investment banking. Passionate of Web development, I spent the past months learning modern Web programming and especially the MERN stack (Mongo - Express - React - Nodejs). Today I have the ambition to move my career to more technical position and ideally as a Full Stack Web Developper.",
       "I am dynamic, excited by new technologies and concepts, and I like working with peers where team spirit and good communication are keys for successful projects.",
     ],
   },
@@ -71,25 +71,6 @@ const cvContent = [
       },
     ],
   },
-  // {
-  //   type: "card",
-  //   label: "EXPERIENCE",
-  //   text: [
-  //     {
-  //       label: "INTERNSHIP BACK OFFICE SUPPORT / BUSINESS ANALYST CALYPSO",
-  //       company: "BNP PARIBAS ARBITRAGE",
-  //       period: "PARIS 04/2012 - 09/2012",
-  //       description:
-  //         "Provide support level 1 and 2 on the trade settlement tool Calypso",
-  //     },
-  //     {
-  //       label: "INTERNSHIP FULLSTACK WEB DEVELOPPEUR",
-  //       company: "PRIMALIANCE",
-  //       period: "PARIS 04/2012 - 09/2012",
-  //       description: "Develop the customer portal for the company website",
-  //     },
-  //   ],
-  // },
   {
     type: "list",
     label: "TECHNICAL SKILLS",
