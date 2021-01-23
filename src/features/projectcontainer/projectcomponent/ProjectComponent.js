@@ -46,20 +46,6 @@ const useStyles = makeStyles({
 
 function ProjectComponent({ content }) {
   const classes = useStyles();
-
-  // return (
-  //   <a href={content.link} className={classes.root}>
-  //     <img className={classes.media} src={content.image} alt={content.label} />
-  //     <div className={classes.cardDescription}>
-  //       <h4>{content.label}</h4>
-  //       <p>{content.description}</p>
-  //     </div>
-
-  //     <Button size="medium" color="secondary" href={content.github}>
-  //       GitHub Link &gt;&gt;&gt;
-  //     </Button>
-  //   </a>
-  // );
   return (
     <a href={content.link} style={{ textDecoration: "none" }}>
       <div className={styles.projectComponent}>
