@@ -66,7 +66,7 @@ const cvContent = [
       {
         label: "INTERNSHIP FULLSTACK WEB DEVELOPER",
         company: "PRIMALIANCE",
-        period: "PARIS 04/2012 - 09/2012",
+        period: "PARIS 05/2011 - 08/2011",
         description: "Develop the customer portal for the company website",
       },
     ],
