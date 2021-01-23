@@ -63,6 +63,7 @@ h5 {
 p {
   flex: 1;
   text-align: justify;
+  font-weight: 600;
 }
 
 .typeWriter {

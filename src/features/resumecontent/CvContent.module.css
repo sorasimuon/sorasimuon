@@ -27,8 +27,8 @@
 .card {
   display: grid;
   margin: 24px 0;
-  /* grid-template-rows: 80px [row] repeat(2, 40px [row]) 1fr[row]; */
   grid-template-rows: 0.2 [row] 0.8[row];
+  background-color: rgba(255, 255, 255, 0.4);
 }
 .imagePassion {
   border-radius: 50%;
@@ -46,9 +46,7 @@
     margin-bottom: 20px;
   }
   .card {
-    /* box-shadow: 2px 2px 2px 1px rgba(200, 200, 200, 0.9); */
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.4);
   }
   .cvContent {
     box-sizing: border-box;
@@ -75,9 +73,7 @@
     margin-bottom: 20px;
   }
   .card {
-    /* box-shadow: 2px 2px 2px 1px rgba(200, 200, 200, 0.9); */
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.4);
   }
   .cvContent {
     box-sizing: border-box;
