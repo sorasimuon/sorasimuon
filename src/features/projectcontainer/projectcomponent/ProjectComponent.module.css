@@ -2,7 +2,7 @@
   .projectComponent {
     display: grid;
     background-color: #4db6ac;
-    box-shadow: 0px 2px 4px rgba(150, 150, 150, 0.5);
+    box-shadow: 5px 2px 4px rgba(150, 150, 150, 0.5);
     border-radius: 6px;
     margin: 16px 0px;
     padding: 12px;
@@ -28,7 +28,7 @@
   .projectComponent {
     display: grid;
     background-color: #4db6ac;
-    box-shadow: 0px 2px 4px rgba(150, 150, 150, 0.5);
+    box-shadow: 4px 4px 8px rgba(150, 150, 150, 0.6);
     border-radius: 6px;
     margin: 16px 0px;
     padding: 12px;
