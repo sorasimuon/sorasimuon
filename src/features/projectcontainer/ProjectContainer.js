@@ -33,7 +33,7 @@ const projects = [
     description:
       "It is a web application allowing the user to communicate with the other registered users.",
     github: "https://github.com/sorasimuon/whatsapp-clone",
-    link: "https://sorasimuon.github.io/whatsapp-clone/",
+    link: "https://whatsapp-clone-fd533.firebaseapp.com/",
   },
 ];
 
