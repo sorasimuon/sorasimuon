@@ -15,16 +15,7 @@ const projects = [
     description:
       "It is a web application allowing the user to keep track of his daily expenses. The backend is an API to collect data from a MongoDB database.",
     github: "https://github.com/sorasimuon/Expenses",
-    link: "https://sorasimuon.github.io/Expenses/",
-  },
-  {
-    label: "AMAZON CLONE",
-    image: amazonImage,
-    source: "https://challenge-22824.web.app/",
-    description:
-      "It is an e-commerce platform with Amazon website design which allows users to simulate purchase of products using Stripe payment API.",
-    github: "https://github.com/sorasimuon/amazon-clone",
-    link: "https://challenge-22824.firebaseapp.com/",
+    link: "https://expenses-cd8fe.firebaseapp.com/",
   },
   {
     label: "WHATS'APP CLONE",
@@ -35,12 +26,21 @@ const projects = [
     github: "https://github.com/sorasimuon/whatsapp-clone",
     link: "https://whatsapp-clone-fd533.firebaseapp.com/",
   },
+  {
+    label: "AMAZON CLONE",
+    image: amazonImage,
+    source: "https://challenge-22824.web.app/",
+    description:
+      "It is an e-commerce platform with Amazon website design which allows users to simulate purchase of products using Stripe payment API.",
+    github: "https://github.com/sorasimuon/amazon-clone",
+    link: "https://challenge-22824.firebaseapp.com/",
+  },
 ];
 
 function ProjectContainer() {
   return (
     <Fragment>
-      <canvas className={styles.projectContainer__background} />
+      <div className={styles.projectContainer__background} />
       <div className={styles.projectContainer}>
         <h2>PROJECTS</h2>
         <div className={styles.projectContainer__canvasGreen}></div>

@@ -113,7 +113,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) {
   .mainContainer__grid {
     grid-template-columns:
       0.05fr [col1] 0.9fr [col2] 0.05fr
@@ -192,7 +192,7 @@ p {
     height: auto;
   }
   h1 {
-    font-size: 4em;
+    font-size: 5em;
   }
   .typeWriter {
     font-size: 2em;
