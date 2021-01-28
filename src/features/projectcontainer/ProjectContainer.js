@@ -14,7 +14,11 @@ const projects = [
     image: expenseImage,
     description:
       "It is a web application allowing the user to keep track of his daily expenses. The backend is an API to collect data from a MongoDB database.",
-    github: "https://github.com/sorasimuon/Expenses",
+    stack: [
+      "Front-end: Javascript, React.js, Material-UI, Redux",
+      "Back-end: Python3, Flask, MongoDB",
+    ],
+    github: "https://github.com/sorasimuon/Expenses/tree/2.0.1",
     link: "https://expenses-cd8fe.firebaseapp.com/",
   },
   {
@@ -23,7 +27,11 @@ const projects = [
     source: "https://github.com/sorasimuon/Expenses",
     description:
       "It is a web application allowing the user to communicate with the other registered users.",
-    github: "https://github.com/sorasimuon/whatsapp-clone",
+    stack: [
+      "Front-end: Javascript, React.js, Material-UI, ContextAPI",
+      "Back-end: Node.js, Express.js, MongoDB",
+    ],
+    github: "https://github.com/sorasimuon/whatsapp-clone/tree/2.0.4",
     link: "https://whatsapp-clone-fd533.firebaseapp.com/",
   },
   {
@@ -32,7 +40,11 @@ const projects = [
     source: "https://challenge-22824.web.app/",
     description:
       "It is an e-commerce platform with Amazon website design which allows users to simulate purchase of products using Stripe payment API.",
-    github: "https://github.com/sorasimuon/amazon-clone",
+    stack: [
+      "front-end: Javascript, Reactjs, Bootstrap, ContextAPI",
+      "Back-end: Firebase (backend function, Firestore, Authentication), Stripe API",
+    ],
+    github: "https://github.com/sorasimuon/amazon-clone/tree/2.0.0",
     link: "https://challenge-22824.firebaseapp.com/",
   },
 ];

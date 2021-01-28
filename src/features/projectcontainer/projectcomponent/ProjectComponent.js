@@ -5,8 +5,10 @@ import { v4 as uuidv4 } from "uuid";
 import styles from "./ProjectComponent.module.css";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
+import { PlayCircleFilledWhite } from "@material-ui/icons";
+import { teal } from "@material-ui/core/colors";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   root: {
     display: "grid",
     gridTemplateRows: "1fr [row1] 1fr [row2] 60px [row3]",
@@ -32,17 +34,43 @@ const useStyles = makeStyles({
     borderTopRightRadius: 6,
     // filter: "brightness(1.2)",
   },
-  cardButtons: {
-    display: "flex",
-    justifyContent: "space-between",
-    padding: 20,
-  },
-  cardDescription: {
-    padding: 20,
+  projectComponent__cardDescription: {
     display: "grid",
-    gridTemplateRows: "0.2fr [row1] 1fr [row2]",
+    gridTemplateRows: "0.1fr [row1] auto [row2] 1fr [row3] 0.1fr [row4]",
+    gridTemplateColumns: "repeat(0.2fr [col1], 0.8fr [col2])",
   },
-});
+  projectComponent__label: {
+    gridRow: "1/1",
+    gridColumn: "1/3",
+  },
+  projectComponent__synopsis: {
+    gridRow: "2/2",
+    gridColumn: "1/3",
+    color: "white",
+    alignSelf: "center",
+  },
+  projectComponent__stack: {
+    gridRow: "3/3",
+    gridColumn: "1/3",
+    color: "white",
+  },
+  projectComponent__link: {
+    gridRow: "4/4",
+    color: "white",
+    justifySelf: "center",
+    padding: 10,
+    backgroundColor: teal[400],
+    [theme.breakpoints.down(768)]: {
+      fontSize: 8,
+    },
+    [theme.breakpoints.up(768)]: {
+      padding: 20,
+    },
+    "&:hover": {
+      backgroundColor: teal[700],
+    },
+  },
+}));
 
 function ProjectComponent({ content }) {
   const classes = useStyles();
@@ -55,10 +83,29 @@ function ProjectComponent({ content }) {
           alt={content.label}
         /> */}
         <div className={classes.projectComponent__cardDescription}>
-          <h3>{content.label}</h3>
-          <p style={{ color: "white" }}>{content.description}</p>
-          <Button size="medium" color="white" href={content.github}>
+          <h3 className={classes.projectComponent__label}>{content.label}</h3>
+          <p className={classes.projectComponent__synopsis}>
+            {content.description}
+          </p>
+          <div className={classes.projectComponent__stack}>
+            {content["stack"].map((stack) => (
+              <p>{stack}</p>
+            ))}
+          </div>
+          <Button
+            className={classes.projectComponent__link}
+            size="medium"
+            href={content.github}
+          >
             GitHub Link &gt;&gt;&gt;
+          </Button>
+          <Button
+            className={classes.projectComponent__link}
+            size="medium"
+            color="white"
+            href={content.link}
+          >
+            DEMO Link &gt;&gt;&gt;
           </Button>
         </div>
       </div>

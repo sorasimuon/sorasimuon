@@ -135,8 +135,8 @@ const cvContent2 = [
     type: "text",
     label: "ABOUT ME",
     text: [
-      "I am Sorasi, I have been working for almost seven years as a Front Office IT Application Support in investment banking. Passionate about Web development, I spent the past months learning modern Web programming and especially the MERN stack (Mongo - Express - React - Nodejs). Today I have the ambition to move my career to more technical position and ideally as a Full Stack Web Developper.",
-      "I am dynamic, excited by new technologies and concepts, and I like working with peers where team spirit and good communication are keys for successful projects.",
+      "I am Sorasi, I have been working for almost seven years as a Front Office IT Application Support in investment banking. Passionate about Web development, I spent the past months learning modern Web programming and especially the MERN stack (Mongo - Express - React - Nodejs). Today I have the ambition to move my career to a more technical position and ideally as a Full Stack Web Developper.",
+      "I am dynamic, excited by new technologies and concepts, and I like working with peers where team spirit and good communication are keys to successful projects.",
     ],
   },
   {
