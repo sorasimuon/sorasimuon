@@ -9,4 +9,3 @@ I spent the past months learning modern Javascript development especially on the
 Today, I want my new passion for Web Development to be a new path in my professional career.
 
 I use this website to present myself, provide a link to download my resume and accesses to my main projects.
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
