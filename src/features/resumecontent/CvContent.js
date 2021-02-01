@@ -50,7 +50,7 @@ const cvContent = [
       },
       {
         label:
-          "FRONT OFFICE APPLICATION SUPPORT – TRADING EQUITIES ET DERIVATIVES",
+          "FRONT OFFICE APPLICATION SUPPORT – TRADING EQUITIES AND DERIVATIVES",
         company: "SOCIETE GENERALE CIB",
         period: "PARIS  05/2013 – 09/2014 | HONG KONG 10/2014 – 09/017",
         description:
