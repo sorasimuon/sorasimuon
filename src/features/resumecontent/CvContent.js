@@ -153,7 +153,7 @@ const cvContent2 = [
       },
       {
         label:
-          "FRONT OFFICE APPLICATION SUPPORT – TRADING EQUITIES ET DERIVATIVES",
+          "FRONT OFFICE APPLICATION SUPPORT – TRADING EQUITIES AND DERIVATIVES",
         company: "SOCIETE GENERALE CIB",
         period: "PARIS  05/2013 – 09/2014 | HONG KONG 10/2014 – 09/017",
         description:
@@ -173,7 +173,7 @@ const cvContent2 = [
           "Provide support level 1 and 2 on the trade settlement tool Calypso",
       },
       {
-        label: "INTERNSHIP FULLSTACK WEB DEVELOPPEUR",
+        label: "INTERNSHIP FULLSTACK WEB DEVELOPER",
         company: "PRIMALIANCE",
         period: "PARIS 05/2011 - 08/2011",
         description: "Develop the customer portal for the company website",
