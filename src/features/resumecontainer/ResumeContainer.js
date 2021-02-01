@@ -56,7 +56,7 @@ function ResumeContainer() {
 
   return (
     <Fragment>
-      <canvas className={styles.resumeContainer__background} />
+      <div className={styles.resumeContainer__background} />
       <div className={styles.descriptionContent}>
         <div className={styles.socialLink}>
           <IconButton href={githubLink} className={classes.linkSocialNetwork}>
